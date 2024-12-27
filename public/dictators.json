@@ -1,0 +1,79 @@
+[
+  {
+    "Name": "Vladimir Putin",
+    "Country": "Russia",
+    "Party": "United Russia",
+    "Percentage Progress to Full Autocracy": "90%",
+    "Next Likely Step": "Further constitutional amendments to extend power"
+  },
+  {
+    "Name": "Kim Jong-un",
+    "Country": "North Korea",
+    "Party": "Workers' Party",
+    "Percentage Progress to Full Autocracy": "100%",
+    "Next Likely Step": "Continued military expansion and nuclear development"
+  },
+  {
+    "Name": "Xi Jinping",
+    "Country": "China",
+    "Party": "Communist Party",
+    "Percentage Progress to Full Autocracy": "85%",
+    "Next Likely Step": "Increased surveillance and control over society"
+  },
+  {
+    "Name": "Recep Tayyip Erdoğan",
+    "Country": "Turkey",
+    "Party": "Justice and Development Party (AKP)",
+    "Percentage Progress to Full Autocracy": "75%",
+    "Next Likely Step": "Further suppression of opposition and media"
+  },
+  {
+    "Name": "Nicolás Maduro",
+    "Country": "Venezuela",
+    "Party": "United Socialist Party",
+    "Percentage Progress to Full Autocracy": "80%",
+    "Next Likely Step": "Continued economic control and military loyalty"
+  },
+  {
+    "Name": "Bashar al-Assad",
+    "Country": "Syria",
+    "Party": "Ba'ath Party",
+    "Percentage Progress to Full Autocracy": "95%",
+    "Next Likely Step": "Strengthening alliances with Russia and Iran"
+  },
+  {
+    "Name": "Alexander Lukashenko",
+    "Country": "Belarus",
+    "Party": "Independent",
+    "Percentage Progress to Full Autocracy": "85%",
+    "Next Likely Step": "Increased repression of protests and opposition"
+  },
+  {
+    "Name": "Abdel Fattah el-Sisi",
+    "Country": "Egypt",
+    "Party": "Independent",
+    "Percentage Progress to Full Autocracy": "70%",
+    "Next Likely Step": "Further consolidation of military power"
+  },
+  {
+    "Name": "Mohammed bin Salman",
+    "Country": "Saudi Arabia",
+    "Party": "Independent",
+    "Percentage Progress to Full Autocracy": "65%",
+    "Next Likely Step": "Continued crackdown on dissent and reform opposition"
+  },
+  {
+    "Name": "Daniel Ortega",
+    "Country": "Nicaragua",
+    "Party": "Sandinista National Liberation Front",
+    "Percentage Progress to Full Autocracy": "75%",
+    "Next Likely Step": "Further control over electoral processes"
+  },
+  {
+    "Name": "Viktor Orbán",
+    "Country": "Hungary",
+    "Party": "Fidesz",
+    "Percentage Progress to Full Autocracy": "85%",
+    "Next Likely Step": "Further consolidation of power and control over media"
+  }
+]
