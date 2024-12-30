@@ -1,79 +1,86 @@
 [
   {
-    "Name": "Vladimir Putin",
-    "Country": "Russia",
+    "name": "Vladimir Putin",
+    "country": "Russia",
     "Party": "United Russia",
-    "Percentage Progress to Full Autocracy": "90%",
-    "Next Likely Step": "Further constitutional amendments to extend power"
+    "percProgFullAuto": "90%",
+    "nextStep": "Further constitutional amendments to extend power"
   },
   {
-    "Name": "Kim Jong-un",
-    "Country": "North Korea",
+    "name": "Kim Jong-un",
+    "country": "North Korea",
     "Party": "Workers' Party",
-    "Percentage Progress to Full Autocracy": "100%",
-    "Next Likely Step": "Continued military expansion and nuclear development"
+    "percProgFullAuto": "100%",
+    "nextStep": "Continued military expansion and nuclear development"
   },
   {
-    "Name": "Xi Jinping",
-    "Country": "China",
+    "name": "Xi Jinping",
+    "country": "China",
     "Party": "Communist Party",
-    "Percentage Progress to Full Autocracy": "85%",
-    "Next Likely Step": "Increased surveillance and control over society"
+    "percProgFullAuto": "85%",
+    "nextStep": "Increased surveillance and control over society"
   },
   {
-    "Name": "Recep Tayyip Erdoğan",
-    "Country": "Turkey",
+    "name": "Recep Tayyip Erdoğan",
+    "country": "Turkey",
     "Party": "Justice and Development Party (AKP)",
-    "Percentage Progress to Full Autocracy": "75%",
-    "Next Likely Step": "Further suppression of opposition and media"
+    "percProgFullAuto": "75%",
+    "nextStep": "Further suppression of opposition and media"
   },
   {
-    "Name": "Nicolás Maduro",
-    "Country": "Venezuela",
+    "name": "Nicolás Maduro",
+    "country": "Venezuela",
     "Party": "United Socialist Party",
-    "Percentage Progress to Full Autocracy": "80%",
-    "Next Likely Step": "Continued economic control and military loyalty"
+    "percProgFullAuto": "80%",
+    "nextStep": "Continued economic control and military loyalty"
   },
   {
-    "Name": "Bashar al-Assad",
-    "Country": "Syria",
+    "name": "Bashar al-Assad",
+    "country": "Syria",
     "Party": "Ba'ath Party",
-    "Percentage Progress to Full Autocracy": "95%",
-    "Next Likely Step": "Strengthening alliances with Russia and Iran"
+    "percProgFullAuto": "95%",
+    "nextStep": "Strengthening alliances with Russia and Iran"
   },
   {
-    "Name": "Alexander Lukashenko",
-    "Country": "Belarus",
+    "name": "Alexander Lukashenko",
+    "country": "Belarus",
     "Party": "Independent",
-    "Percentage Progress to Full Autocracy": "85%",
-    "Next Likely Step": "Increased repression of protests and opposition"
+    "percProgFullAuto": "85%",
+    "nextStep": "Increased repression of protests and opposition"
   },
   {
-    "Name": "Abdel Fattah el-Sisi",
-    "Country": "Egypt",
+    "name": "Abdel Fattah el-Sisi",
+    "country": "Egypt",
     "Party": "Independent",
-    "Percentage Progress to Full Autocracy": "70%",
-    "Next Likely Step": "Further consolidation of military power"
+    "percProgFullAuto": "70%",
+    "nextStep": "Further consolidation of military power"
   },
   {
-    "Name": "Mohammed bin Salman",
-    "Country": "Saudi Arabia",
+    "name": "Mohammed bin Salman",
+    "country": "Saudi Arabia",
     "Party": "Independent",
-    "Percentage Progress to Full Autocracy": "65%",
-    "Next Likely Step": "Continued crackdown on dissent and reform opposition"
+    "percProgFullAuto": "65%",
+    "nextStep": "Continued crackdown on dissent and reform opposition"
   },
   {
-    "Name": "Daniel Ortega",
-    "Country": "Nicaragua",
+    "name": "Daniel Ortega",
+    "country": "Nicaragua",
     "Party": "Sandinista National Liberation Front",
-    "Percentage Progress to Full Autocracy": "75%",
-    "Next Likely Step": "Further control over electoral processes"
+    "percProgFullAuto": "75%",
+    "nextStep": "Further control over electoral processes"
   },
   {
-    "Name": "Viktor Orbán",
-    "Country": "Hungary",
+    "name": "Viktor Orbán",
+    "country": "Hungary",
     "Party": "Fidesz",
-    "Percentage Progress to Full Autocracy": "85%",
-    "Next Likely Step": "Further consolidation of power and control over media"
+    "percProgFullAuto": "85%",
+    "nextStep": "Further consolidation of power and control over media"
+  },
+  {
+    "name": "Donald Trump",
+    "country": "United States",
+    "Party": "Republican Party",
+    "percProgFullAuto": "65%",
+    "nextStep": "Further consolidation of power and control over media"
   }
 ]
