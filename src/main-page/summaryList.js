@@ -33,11 +33,34 @@ const SummaryList = () => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      <ul>
-        {filteredDictators.map((dictator) => (
-          <li key={dictator.id}>{dictator.name}</li>
-        ))}
-      </ul>
+      <table>
+        <thead>
+          <tr>
+            <th>Portrait</th>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Years in Power</th>
+            <th>Party</th>
+            <th>Progress to full autocracy</th>
+            <th>Next Step</th>
+          </tr>
+        </thead>
+        <tbody>
+          {filteredDictators.map((dictator) => (
+            <tr key={dictator.id}>
+              <td>
+                <img src={`/images/profile/${dictator.id}.jpg`} alt="Portrait of a dictator" className="img-fluid rounded portraitImage" />
+              </td>
+              <td>{dictator.name}</td>
+              <td>{dictator.country}</td>
+              <td>{dictator.yearsInPower}</td>
+              <td>{dictator.party}</td>
+              <td>{dictator.percProgFullAuto}</td>
+              <td>{dictator.nextStep}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };
