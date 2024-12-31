@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="container">
-        <Header subtitle="We keep an eye on their progress, so you don't have to ;-)" />
+        <Header subtitle="Coming Soon - We keep an eye on their progress, so you don't have to ;-)" />
         <Routes>
           <Route path="/" element={<SummaryList />} />
         </Routes>
