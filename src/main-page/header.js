@@ -7,7 +7,7 @@ const Header = ({ subtitle }) => (
       <img src={logo} className="logo" alt="logo" />
     </div>
     <div className="col-md-7 title">
-      <h1>Dictator Watch</h1>
+      <h1 className="display-1">Dictator Watch</h1>
     </div>
     <div className="col-md-7 mt-5 subtitle">{subtitle}</div>
   </header>
