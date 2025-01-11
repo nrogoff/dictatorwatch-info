@@ -1,6 +1,12 @@
+import React from 'react';
+import { useParams } from 'react-router-dom';
+
 import "./dictator-profile.css";
 
-const dictatorProfile = ({dictator}) => {
+const DictatorProfile = ({dictator}) => {
+    const { id } = useParams();
+     
+
     return ( 
         <div>
             <h1>{dictator.name}</h1>
@@ -10,4 +16,4 @@ const dictatorProfile = ({dictator}) => {
      );
 }
  
-export default dictatorProfile;
+export default DictatorProfile;
