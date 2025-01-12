@@ -1,0 +1,70 @@
+{
+  "typesOfGovernment": {
+    "democraticSystems": [
+      {
+        "type": "Direct Democracy",
+        "description": "Citizens directly participate in decision-making processes."
+      },
+      {
+        "type": "Representative Democracy (Republic)",
+        "description": "Citizens elect representatives to make decisions on their behalf."
+      },
+      {
+        "type": "Constitutional Monarchy",
+        "description": "A monarch acts as the head of state within the parameters of a constitution."
+      }
+    ],
+    "nonDemocraticSystems": [
+      {
+        "type": "Authoritarianism",
+        "description": "Power is concentrated in the hands of a single leader or a small group, with limited political freedoms."
+      },
+      {
+        "type": "Totalitarianism",
+        "description": "The government seeks to control all aspects of public and private life."
+      },
+      {
+        "type": "Oligarchy",
+        "description": "A small group of people, often from the same social, economic, or political class, hold power."
+      },
+      {
+        "type": "Technocracy",
+        "description": "Decision-makers are selected based on their expertise in a particular area."
+      },
+      {
+        "type": "Theocracy",
+        "description": "Religious leaders control the government, and state policies are based on religious principles."
+      },
+      {
+        "type": "Dictatorship",
+        "description": "A single leader holds absolute power, often coming to power through non-democratic means."
+      },
+      {
+        "type": "Absolute Monarchy",
+        "description": "The monarch has almost complete control over the government and is not bound by a constitution."
+      }
+    ],
+    "otherTypes": [
+      {
+        "type": "Communism",
+        "description": "The state plans and controls the economy, and a single, often authoritarian party holds power."
+      },
+      {
+        "type": "Colonialism",
+        "description": "One country controls another, often exploiting it economically."
+      },
+      {
+        "type": "Aristocracy",
+        "description": "Power is held by the nobility."
+      },
+      {
+        "type": "Federalism",
+        "description": "Power is divided between a central government and various regional governments."
+      },
+      {
+        "type": "Socialism",
+        "description": "The government owns and controls the means of production and distribution of goods."
+      }
+    ]
+  }
+}

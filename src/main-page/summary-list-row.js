@@ -6,7 +6,7 @@ function SummaryListRow({ dictator }) {
   return (
     <tr key={dictator.id} className="shadow">
       <td>
-        <Link to={`/dictator-profile/${dictator.id}`}>
+        <Link to={`/dictatorprofile/${dictator.id}`} state={{ dictator }}>
           <img
             src={`/images/profile/${dictator.id}.jpg`}
             alt="Portrait of a dictator"
@@ -18,9 +18,13 @@ function SummaryListRow({ dictator }) {
         <h4>{dictator.name}</h4>
       </td>
       <td>{dictator.country}</td>
-      <td className="text-center">{dictator.yearsInPower}</td>
+      <td className="text-center">
+        {(
+          (new Date() - new Date(dictator.dateLastTakenPower)) /
+          (1000 * 60 * 60 * 24 * 365.25)
+        ).toFixed(1)}
+      </td>
       <td>{dictator.party}</td>
-      {/* <td>{dictator.percProgFullAuto}</td> */}
       <td>
         <GaugeComponent
           type="semicircle"
@@ -52,7 +56,7 @@ function SummaryListRow({ dictator }) {
               },
             ],
           }}
-          value={dictator.percProgFullAuto}
+          value={dictator.percentageOfProgressToFullAutocracy}
           pointer={{ type: "arrow", elastic: true }}
           labels={{
             valueLabel: {
@@ -64,7 +68,7 @@ function SummaryListRow({ dictator }) {
           }}
         />
       </td>
-      <td>{dictator.nextStep}</td>
+      <td>{dictator.next2StepsToTakeToFullAutocracy}</td>
     </tr>
   );
 }

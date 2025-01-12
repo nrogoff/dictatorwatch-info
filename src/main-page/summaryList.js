@@ -12,11 +12,13 @@ const SummaryList = () => {
   // Fetch the dictators from the file when the component mounts
   useEffect(() => {
     const fetchDictators = async () => {
-      const response = await fetch("/dictators.json");
+      const response = await fetch("/dictatorsProfiles.json");
       const dictators = await response.json();
       // Store the dictators in the state variable
       const sortedDictators = dictators.sort(
-        (a, b) => b.percProgFullAuto - a.percProgFullAuto
+        (a, b) =>
+          b.percentageOfProgressToFullAutocracy -
+          a.percentageOfProgressToFullAutocracy
       );
       setAllDictators(sortedDictators);
     };
