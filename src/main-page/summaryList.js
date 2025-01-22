@@ -1,4 +1,6 @@
 import React, { useEffect, useState, useMemo } from "react";
+import SummaryListRow from "./summary-list-row";
+import "./main-page.css";
 
 const SummaryList = () => {
   // Create a state variable to store the dictators
@@ -10,10 +12,15 @@ const SummaryList = () => {
   // Fetch the dictators from the file when the component mounts
   useEffect(() => {
     const fetchDictators = async () => {
-      const response = await fetch("/dictators.json");
+      const response = await fetch("/dictatorsProfiles.json");
       const dictators = await response.json();
       // Store the dictators in the state variable
-      setAllDictators(dictators);
+      const sortedDictators = dictators.sort(
+        (a, b) =>
+          b.percentageOfProgressToFullAutocracy -
+          a.percentageOfProgressToFullAutocracy
+      );
+      setAllDictators(sortedDictators);
     };
     fetchDictators();
   }, []);
@@ -33,31 +40,25 @@ const SummaryList = () => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      <table>
+      <table className="table align-middle">
         <thead>
           <tr>
-            <th>Portrait</th>
-            <th>Name</th>
-            <th>Country</th>
-            <th>Years in Power</th>
-            <th>Party</th>
-            <th>Progress to full autocracy</th>
-            <th>Next Step</th>
+            <th scope="col"></th>
+            <th scope="col">Name</th>
+            <th scope="col">Country</th>
+            <th scope="col" className="text-center">
+              Years in Power
+            </th>
+            <th scope="col">Party</th>
+            <th scope="col" className="text-center">
+              Progress to<br/>full autocracy
+            </th>
+            <th scope="col">Next Step</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="table-group-divider">
           {filteredDictators.map((dictator) => (
-            <tr key={dictator.id}>
-              <td>
-                <img src={`/images/profile/${dictator.id}.jpg`} alt="Portrait of a dictator" className="img-fluid rounded portraitImage" />
-              </td>
-              <td>{dictator.name}</td>
-              <td>{dictator.country}</td>
-              <td>{dictator.yearsInPower}</td>
-              <td>{dictator.party}</td>
-              <td>{dictator.percProgFullAuto}</td>
-              <td>{dictator.nextStep}</td>
-            </tr>
+            <SummaryListRow key={dictator.id} dictator={dictator} />
           ))}
         </tbody>
       </table>

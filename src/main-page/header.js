@@ -2,14 +2,16 @@ import React from "react";
 import logo from "./logo192.png";
 
 const Header = ({ subtitle }) => (
-  <header className="row">
-    <div className="col-md-7">
-      <img src={logo} className="logo" alt="logo" />
+  <header>
+    <div className="row align-items-center">
+      <div className="col col-md-2">
+        <img src={logo} className="logo" alt="logo" />
+      </div>
+      <div className="col col-md-10 title">
+        <h1 className="display-1">Dictator Watch</h1>
+      </div>
     </div>
-    <div className="col-md-7 title">
-      <h1>Dictator Watch</h1>
-    </div>
-    <div className="col-md-7 mt-5 subtitle">{subtitle}</div>
+    <p className="subtitle">{subtitle}</p>
   </header>
 );
 
