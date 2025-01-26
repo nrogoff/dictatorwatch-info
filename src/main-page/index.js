@@ -4,6 +4,7 @@ import "./main-page.css";
 import Header from "./header";
 import SummaryList from "./summaryList";
 import DictatorProfile from "../dictator-profile";
+import DictatorProgress from "../dictator-progress";
 
 function App() {
 
@@ -13,7 +14,14 @@ function App() {
         <Header subtitle="Coming Soon - We keep an eye on their progress, so you don't have to ;-)" />
         <Routes>
           <Route path="/" element={<SummaryList />} />
-          <Route path="/dictatorprofile/:id" element={<DictatorProfile />} />
+          <Route
+            path="/dictatorprofile/:sanitizedName"
+            element={<DictatorProfile />}
+          />
+          <Route
+            path="/dictatorprogress/:sanitizedName"
+            element={<DictatorProgress />}
+          />
         </Routes>
       </div>
     </Router>

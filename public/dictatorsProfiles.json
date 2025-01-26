@@ -2,6 +2,7 @@
   {
     "id": "e1a1c5b4-5d6f-4a3b-9e8e-2d6b5a4e1c5b",
     "name": "Vladimir Putin",
+    "sanitizedName": "VladimirPutin",
     "country": "Russia",
     "dateLastTakenPower": "2012-05-07",
     "dateLostPower": null,
@@ -39,6 +40,7 @@
   {
     "id": "f2b2d6e7-6f8a-4b3c-9e8e-3d7b6a5f2b2d",
     "name": "Kim Jong-un",
+    "sanitizedName": "KimJongun",
     "country": "North Korea",
     "dateLastTakenPower": "2011-12-30",
     "dateLostPower": null,
@@ -68,6 +70,7 @@
   {
     "id": "g3c3e7f8-7g9b-5c4d-9f8e-4e8c7b6g3c3e",
     "name": "Xi Jinping",
+    "sanitizedName": "XiJinping",
     "country": "China",
     "dateLastTakenPower": "2012-11-15",
     "dateLostPower": null,
@@ -100,6 +103,7 @@
   {
     "id": "h4d4f8g9-8h0c-6d5e-9g8e-5f9d8c7h4d4f",
     "name": "Recep Tayyip Erdoğan",
+    "sanitizedName": "RecepTayyipErdogan",
     "country": "Turkey",
     "dateLastTakenPower": "2014-08-28",
     "dateLostPower": null,
@@ -129,6 +133,7 @@
   {
     "id": "i5e5g9h0-9i1d-7e6f-9h8e-6g0e9d8i5e5g",
     "name": "Nicolás Maduro",
+    "sanitizedName": "NicolasMaduro",
     "country": "Venezuela",
     "dateLastTakenPower": "2013-04-19",
     "dateLostPower": null,
@@ -158,6 +163,7 @@
   {
     "id": "j6f6h0i1-0j2e-8f7g-9i8e-7h1f0e9j6f6h",
     "name": "Bashar al-Assad",
+    "sanitizedName": "BasharAlAssad",
     "country": "Syria",
     "dateLastTakenPower": "2000-07-17",
     "dateLostPower": "2024-12-08",
@@ -187,6 +193,7 @@
   {
     "id": "k7g7i1j2-1k3f-9g8h-9j8e-8i2g1f0k7g7i",
     "name": "Alexander Lukashenko",
+    "sanitizedName": "AlexanderLukashenko",
     "country": "Belarus",
     "dateLastTakenPower": "1994-07-20",
     "dateLostPower": null,
@@ -216,6 +223,7 @@
   {
     "id": "l8h8j2k3-2l4g-0h9i-9k8e-9j3h2g1l8h8j",
     "name": "Abdel Fattah el-Sisi",
+    "sanitizedName": "AbdelFattahElSisi",
     "country": "Egypt",
     "dateLastTakenPower": "2014-06-08",
     "dateLostPower": null,
@@ -245,6 +253,7 @@
   {
     "id": "m9i9k3l4-3m5h-1i0j-9l8e-0k4i3h2m9i9k",
     "name": "Mohammed bin Salman",
+    "sanitizedName": "MohammedBinSalman",
     "country": "Saudi Arabia",
     "dateLastTakenPower": "2017-06-21",
     "dateLostPower": null,
@@ -277,6 +286,7 @@
   {
     "id": "n0j0l4m5-4n6i-2j1k-9m8e-1l5j4i3n0j0l",
     "name": "Daniel Ortega",
+    "sanitizedName": "DanielOrtega",
     "country": "Nicaragua",
     "dateLastTakenPower": "2007-01-10",
     "dateLostPower": null,
@@ -306,6 +316,7 @@
   {
     "id": "p2l2n6o7-6p8k-4l3m-9o8e-3n7l6k5p2l2n",
     "name": "Donald J. Trump",
+    "sanitizedName": "DonaldJTrump",
     "country": "United States",
     "dateLastTakenPower": "2025-01-20",
     "dateLostPower": null,

@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import GaugeComponent from "react-gauge-component";
 import "./dictator-profile.css";
 
@@ -24,6 +24,8 @@ const DictatorProfile = () => {
           </div>
           <h1 className="display-2 card-title col">{dictator.name}</h1>
           <div className="col-md-3">
+                      <Link to={`/dictator-progress/${dictator.id}`} state={{ dictator }} className="link">
+
             <GaugeComponent
               type="semicircle"
               arc={{
@@ -65,6 +67,7 @@ const DictatorProfile = () => {
                 },
               }}
             />
+            </Link>
           </div>
         </div>
         <p className="card-text">{dictator.shortBiography}</p>
@@ -101,13 +104,13 @@ const DictatorProfile = () => {
         </li>
         <li className="list-group-item">
           <strong>Political Party:</strong> {dictator.politicalParty}
-        </li>        
+        </li>
         <li className="list-group-item">
           <strong>Country of rule:</strong> {dictator.country}
         </li>
         <li className="list-group-item">
           <strong>Key Policies:</strong> {dictator.keyPolicies.join(", ")}
-        </li>        
+        </li>
         <li className="list-group-item">
           <strong>Years in Power:</strong>{" "}
           {(
@@ -121,7 +124,9 @@ const DictatorProfile = () => {
 
         <li className="list-group-item">
           <strong>Progress to Full Autocracy:</strong>{" "}
-          {dictator.percentageOfProgressToFullAutocracy}% complete
+          <Link to={`/dictator-progress/${dictator.id}`} state={{ dictator }} className="link">
+            {dictator.percentageOfProgressToFullAutocracy}% complete
+          </Link>
         </li>
         <li className="list-group-item">
           <strong>Next Steps:</strong>{" "}

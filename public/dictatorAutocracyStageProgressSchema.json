@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LinkingDataSet",
+  "type": "object",
+  "properties": {
+    "dictatorsProfileId": {
+      "type": "integer",
+      "description": "The ID of the dictator's profile"
+    },
+    "autocracyStageId": {
+      "type": "integer",
+      "description": "The ID of the autocracy stage"
+    },
+    "progressPercentage": {
+      "type": "integer",
+      "description": "The progress percentage of the dictator in this autocracy stage",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "detailsOfReasoning": {
+      "type": "string",
+      "description": "Details of the reasoning behind the progress percentage"
+    }
+  },
+  "required": [
+    "dictatorsProfileId",
+    "autocracyStageId",
+    "progressPercentage",
+    "detailsOfReasoning"
+  ]
+}

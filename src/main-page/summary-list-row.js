@@ -6,7 +6,10 @@ function SummaryListRow({ dictator }) {
   return (
     <tr key={dictator.id} className="shadow">
       <td>
-        <Link to={`/dictatorprofile/${dictator.id}`} state={{ dictator }}>
+        <Link
+          to={`/dictatorprofile/${dictator.sanitizedName}`}
+          state={{ dictator }}
+        >
           <img
             src={`/images/profile/${dictator.id}.jpg`}
             alt="Portrait of a dictator"
@@ -15,7 +18,13 @@ function SummaryListRow({ dictator }) {
         </Link>
       </td>
       <td>
-        <h4>{dictator.name}</h4>
+        <Link
+          to={`/dictatorprofile/${dictator.sanitizedName}`}
+          state={{ dictator }}
+          className="nameLink"
+        >
+          <h4>{dictator.name}</h4>
+        </Link>
       </td>
       <td>{dictator.country}</td>
       <td className="text-center">

@@ -17,3 +17,15 @@
     height: 100px;
     width: 100px;
 }
+
+.nameLink {
+    color: #6c757d;
+    /* Dark grey color */
+    text-decoration: none;
+    /* No underline */
+}
+
+.nameLink:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
