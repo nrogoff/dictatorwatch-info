@@ -400,14 +400,14 @@ FodyWeavers.xsd
 *.sln.iml
 
 # React Stuff
-/.pnp
-.pnp.js
+src/web/.pnp
+src/web/.pnp.js
 
 # testing
-/coverage
+src/web/coverage
 
 # production
-/build
+src/web/build
 
 # misc
 .DS_Store
