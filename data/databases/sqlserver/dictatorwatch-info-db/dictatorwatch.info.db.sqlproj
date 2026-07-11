@@ -1,0 +1,22 @@
+<Project Sdk="MSBuild.Sdk.SqlProj/4.3.0">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <SqlServerVersion>SqlAzure</SqlServerVersion>
+    <ModelCollation>1033, CI</ModelCollation>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TreatTSqlWarningsAsErrors>false</TreatTSqlWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="readme.md" />
+    <None Include="dictatorwatch.info.db.publish.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Data\Seeding\**\*.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PostDeploy Include="Data\Seeding\Script.PostDeployment1.sql" />
+  </ItemGroup>
+</Project>

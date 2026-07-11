@@ -14,3 +14,9 @@ Project Started: 2024-12-21
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Repository structure
+
+- `apps/web` - React frontend
+- `data` - database project(s)
+- `packages` - shared code/contracts
+- `infra` - infrastructure as code and deployment assets
