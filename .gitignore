@@ -200,6 +200,9 @@ PublishScripts/
 *.snupkg
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
+# Keep top-level monorepo shared packages tracked
+!packages/
+!packages/**
 # except build/, which is used as an MSBuild target.
 !**/[Pp]ackages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
@@ -400,15 +403,15 @@ FodyWeavers.xsd
 *.sln.iml
 
 # React Stuff
-src/web/.pnp
-src/web/.pnp.js
+apps/web/.pnp
+apps/web/.pnp.js
 
 # testing
-src/web/coverage
+apps/web/coverage
 
 # production
 build/
-src/web/build
+apps/web/build
 **/build/
 
 # misc
