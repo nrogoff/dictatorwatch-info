@@ -407,7 +407,9 @@ src/web/.pnp.js
 src/web/coverage
 
 # production
+build/
 src/web/build
+**/build/
 
 # misc
 .DS_Store
